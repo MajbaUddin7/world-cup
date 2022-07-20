@@ -1,0 +1,61 @@
+/* Font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,400&display=swap');
+
+/* common styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #1E1E1E;
+}
+
+main {
+    background: #FFFFFF;
+}
+
+.top-banner {
+    display: flex;
+    background-color: #161616;
+    width: 1321px;
+    height: 646px;
+    left: 140px;
+    top: 50px;
+    border-radius: 30px;
+    position: absolute;
+}
+
+.top-banner-info {
+    width: 531px;
+    height: 424px;
+    margin-left: 246px;
+    margin-top: 161px;
+    border-radius: 5px;
+}
+
+.top-banner-title {
+    color: #FFFFFF;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 80px;
+}
+
+.top-banner-description {
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.top-banner-bottom {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    background: #DD0000;
+    border-radius: 5px;
+}
+
+.top-banner-thumnail {
+    background: url(kisspng-marcelo-vieira-brazil-national-football-team-footb-brazil-5ac0e6b8ef0ed6.png);
+    position: absolute;
+    width: 581px;
+    height: 613px;
+    left: 801px;
+    top: 83px;
+
+}
