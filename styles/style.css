@@ -7,54 +7,83 @@ body {
     background: #FFFFFF;
 }
 
+/* Top Banner Start  */
+
 .top-banner {
-    display: flex;
+
     background-color: #161616;
-    width: 1321px;
-    height: 646px;
-    left: 140px;
-    top: 50px;
-    border-radius: 30px;
     position: absolute;
+    width: 90%;
+    height: 500px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    border-radius: 30px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
 }
 
 .top-banner-info {
     width: 531px;
     height: 424px;
     margin-left: 246px;
-    margin-top: 161px;
+    margin-top: 10px;
     border-radius: 5px;
 }
 
-h1 {
+.top-banner-title {
     color: #FFFFFF;
-    font-size: 60px;
+    font-size: 50px;
+    width: 531px;
+    margin-top: 30px;
 }
 
 .top-banner-description {
     color: #FFFFFF;
     font-size: 16px;
+    margin-top: 5px;
 }
 
-.top-banner-bottom {
+.top-banner-botton {
     text-decoration: none;
-    color: #FFFFFF;
-    font-size: 20px;
     background: #DD0000;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 10px 40px;
     border-radius: 5px;
+}
+
+.fa-solid {
+    color: #FFFFFF;
+    margin-left: -55px;
+    padding: 24px;
 }
 
 .top-banner-thumnail {
     background: url(kisspng-marcelo-vieira-brazil-national-football-team-footb-brazil-5ac0e6b8ef0ed6.png);
     position: absolute;
-    width: 581px;
-    height: 613px;
-    left: 801px;
-    top: 83px;
-    margin-bottom: 50px;
+    margin-left: 801px;
+    margin-top: 60px;
+
 }
 
-.container {}
+.top-banner-thumnail img {
+    width: 100%;
+}
+
+/* Top Banner end  */
+
+/* Blogs Start  */
+
+.blogs-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 180px;
+
+}
 
 .top-blogs {
     background: #161616;
@@ -66,23 +95,19 @@ h1 {
     top: 826px;
 }
 
-.bottom-box {
-    position: absolute;
+.botton-box {
     width: 252px;
     height: 252px;
     left: 170px;
     top: 856px;
 }
 
-.upcoming-bottom {}
-
-.group-bottom {}
-
-.blog-bottom {}
-
-.blogs {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+.botton-box a {
+    text-decoration: none;
+    background-color: #FFFFFF;
+    padding: 17px;
+    margin-bottom: 15px;
+    text-align: center;
 }
 
 .blog1 {
@@ -92,6 +117,11 @@ h1 {
     left: 476px;
     top: 826px;
 
+}
+
+.transfer-botton {
+    border: #161616;
+    background-color: #FFFFFF;
 }
 
 .blog2 {
@@ -162,6 +192,7 @@ h1 {
 
 }
 
+
 footer {
     background: #161616;
     text-align: center;
@@ -171,12 +202,11 @@ footer {
     left: 0px;
     top: 2090px;
 
-
 }
 
 footer hr {
-    color: #FFFFFF;
-    border-radius: 10px;
+    border: 0px;
+    border-bottom: 1px solid gray;
 
 }
 
